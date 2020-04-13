@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kiki.act.act.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_item1"
+        android:orderInCategory="100"
+        android:title="@string/menu_item1" />
+    <item
+        android:id="@+id/menu_item2"
+        android:orderInCategory="100"
+        android:title="@string/menu_item2" />
+    <item
+        android:id="@+id/menu_item3"
+        android:orderInCategory="100"
+        android:title="@string/menu_item3" />
+    <item
+        android:id="@+id/menu_item4"
+        android:orderInCategory="100"
+        android:title="@string/menu_item4" />
+    <item
+        android:id="@+id/menu_item5"
+        android:orderInCategory="100"
+        android:title="@string/menu_item5" />
+</menu>

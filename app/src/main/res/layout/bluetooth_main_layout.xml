@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <ToggleButton
+        android:id="@+id/bluetooth_main_toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textOff="@string/bluetooth_main_toggglebtn_off"
+        android:textOn="@string/bluetooth_main_toggglebtn_on" />
+
+    <RelativeLayout
+        android:id="@+id/bluetooth_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bluetooth_main_seartchBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/bluetooth_main_searchbtn_name" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/bluetooth_main_seartchBtn"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="등록된 기기" />
+
+            <ListView
+                android:id="@+id/bluetooth_main_pairedDevices_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"></ListView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="사용할 수 있는 기기" />
+
+            <ListView
+                android:id="@+id/bluetooth_main_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ></ListView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

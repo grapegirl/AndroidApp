@@ -1,0 +1,24 @@
+<RelativeLayout 
+    android:id="@+id/train_image_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" > 
+
+    <ImageView
+        android:id="@+id/train_image"
+        android:layout_width="75px"
+        android:layout_height="75px"
+        android:src="@drawable/train_nomal_0" />
+
+    <TextView
+        android:id="@+id/train_num"
+        android:layout_width="75px"
+        android:layout_height="75px"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="00000"
+        android:textStyle="bold"
+        android:textSize="12px"
+        android:textColor="#000000" />
+
+</RelativeLayout>

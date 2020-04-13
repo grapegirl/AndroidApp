@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_bg"
+    android:layout_width="match_parent"
+    android:layout_height="800px"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/popup_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:layout_gravity="center_horizontal|center_vertical|center" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/popup_view_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/popup_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:orientation="horizontal" >
+    </Button>
+
+</LinearLayout>

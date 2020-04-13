@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:scrollbars="none"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/main_tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴1" />
+
+        <Button
+            android:id="@+id/main_tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴2" />
+
+        <Button
+            android:id="@+id/main_tab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴3" />
+
+        <Button
+            android:id="@+id/main_tab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴4" />
+
+        <Button
+            android:id="@+id/main_tab5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴5" />
+
+        <Button
+            android:id="@+id/main_tab6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴6" />
+
+        <Button
+            android:id="@+id/main_tab7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴7" />
+
+        <Button
+            android:id="@+id/main_tab8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴8" />
+
+        <Button
+            android:id="@+id/main_tab9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴9" />
+
+        <Button
+            android:id="@+id/main_tab10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴10" />
+
+    </LinearLayout>
+
+</HorizontalScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spiner_list_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp">
+
+    <CheckBox
+        android:id="@+id/spiner_item_checkbox"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/spiner_item_textview"
+        android:layout_width="225dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/spiner_item_checkbox"
+        android:gravity="center_vertical|left"
+        android:singleLine="false"
+        android:text="test\na\nb"
+        android:textSize="20sp" />
+
+</RelativeLayout>
