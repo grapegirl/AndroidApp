@@ -13,7 +13,11 @@
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -22,7 +26,12 @@
         tools:layout="@layout/fragment_second">
         <action
             android:id="@+id/action_SecondFragment_to_UIFragment"
-            app:destination="@id/UIFragment" />
+            app:destination="@id/UIFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+           />
     </fragment>
     <fragment
         android:id="@+id/UIFragment"
@@ -30,6 +39,11 @@
         android:label="UIFragment" >
         <action
             android:id="@+id/action_UIFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            app:destination="@id/FirstFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+           />
     </fragment>
 </navigation>
